@@ -1,0 +1,232 @@
+[
+  {
+    "image_path": "yolo_images\\bicycle\\000011.jpg",
+    "original_time": {
+      "average_ms": 68.18626665820678,
+      "min_ms": 65.94930007122457,
+      "max_ms": 70.13719994574785
+    },
+    "quantized_time": {
+      "average_ms": 55.1517999653394,
+      "min_ms": 54.870499996468425,
+      "max_ms": 55.372699978761375
+    },
+    "speedup_percent": 23.633801074595915,
+    "accuracy": {
+      "original_detections": 1,
+      "quantized_detections": 1,
+      "original_confidence": 0.7782570123672485,
+      "quantized_confidence": 0.7782570123672485,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  },
+  {
+    "image_path": "yolo_images\\bicycle\\000002.jpg",
+    "original_time": {
+      "average_ms": 83.17419999123861,
+      "min_ms": 69.63419995736331,
+      "max_ms": 92.6447999663651
+    },
+    "quantized_time": {
+      "average_ms": 57.42216669023037,
+      "min_ms": 54.565200000070035,
+      "max_ms": 62.54890002310276
+    },
+    "speedup_percent": 44.84685058982565,
+    "accuracy": {
+      "original_detections": 8,
+      "quantized_detections": 8,
+      "original_confidence": 0.8577101230621338,
+      "quantized_confidence": 0.8577101230621338,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  },
+  {
+    "image_path": "yolo_images\\bicycle\\000017.jpg",
+    "original_time": {
+      "average_ms": 89.12666665855795,
+      "min_ms": 85.8238999499008,
+      "max_ms": 92.22240000963211
+    },
+    "quantized_time": {
+      "average_ms": 69.61013334027182,
+      "min_ms": 68.95810004789382,
+      "max_ms": 70.14399999752641
+    },
+    "speedup_percent": 28.03691414134264,
+    "accuracy": {
+      "original_detections": 1,
+      "quantized_detections": 1,
+      "original_confidence": 0.7400493621826172,
+      "quantized_confidence": 0.7400493621826172,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  },
+  {
+    "image_path": "yolo_images\\bicycle\\000009.jpg",
+    "original_time": {
+      "average_ms": 82.56823332825054,
+      "min_ms": 81.36079995892942,
+      "max_ms": 83.5363999940455
+    },
+    "quantized_time": {
+      "average_ms": 55.66376664986213,
+      "min_ms": 54.858500021509826,
+      "max_ms": 56.67319998610765
+    },
+    "speedup_percent": 48.33389527450358,
+    "accuracy": {
+      "original_detections": 1,
+      "quantized_detections": 1,
+      "original_confidence": 0.8059279918670654,
+      "quantized_confidence": 0.8059279918670654,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  },
+  {
+    "image_path": "yolo_images\\bicycle\\000007.jpg",
+    "original_time": {
+      "average_ms": 67.88196666942288,
+      "min_ms": 65.18719997256994,
+      "max_ms": 70.46449999324977
+    },
+    "quantized_time": {
+      "average_ms": 68.0356667144224,
+      "min_ms": 65.37050008773804,
+      "max_ms": 70.97580004483461
+    },
+    "speedup_percent": -0.2264224985525587,
+    "accuracy": {
+      "original_detections": 1,
+      "quantized_detections": 1,
+      "original_confidence": 0.5511563420295715,
+      "quantized_confidence": 0.5511563420295715,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  },
+  {
+    "image_path": "yolo_images\\bicycle\\000003.jpg",
+    "original_time": {
+      "average_ms": 107.6328333389635,
+      "min_ms": 98.6581000033766,
+      "max_ms": 121.08810001518577
+    },
+    "quantized_time": {
+      "average_ms": 56.522400001995265,
+      "min_ms": 55.226300028152764,
+      "max_ms": 57.4237999971956
+    },
+    "speedup_percent": 90.42509400726793,
+    "accuracy": {
+      "original_detections": 2,
+      "quantized_detections": 2,
+      "original_confidence": 0.7655402421951294,
+      "quantized_confidence": 0.7655402421951294,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  },
+  {
+    "image_path": "yolo_images\\bicycle\\000014.jpg",
+    "original_time": {
+      "average_ms": 83.44686667745312,
+      "min_ms": 82.2630999609828,
+      "max_ms": 85.39370005019009
+    },
+    "quantized_time": {
+      "average_ms": 63.39086669807633,
+      "min_ms": 56.72220000997186,
+      "max_ms": 68.85919999331236
+    },
+    "speedup_percent": 31.638627177794064,
+    "accuracy": {
+      "original_detections": 5,
+      "quantized_detections": 5,
+      "original_confidence": 0.6427443623542786,
+      "quantized_confidence": 0.6427443623542786,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  },
+  {
+    "image_path": "yolo_images\\bicycle\\000016.jpg",
+    "original_time": {
+      "average_ms": 78.27170003050317,
+      "min_ms": 76.94400008767843,
+      "max_ms": 79.6087000053376
+    },
+    "quantized_time": {
+      "average_ms": 70.35243336576968,
+      "min_ms": 68.07040004059672,
+      "max_ms": 73.37630004622042
+    },
+    "speedup_percent": 11.25656396781669,
+    "accuracy": {
+      "original_detections": 1,
+      "quantized_detections": 1,
+      "original_confidence": 0.8733843564987183,
+      "quantized_confidence": 0.8733843564987183,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  },
+  {
+    "image_path": "yolo_images\\bicycle\\000010.jpg",
+    "original_time": {
+      "average_ms": 95.2895332981522,
+      "min_ms": 93.855099985376,
+      "max_ms": 96.42729989718646
+    },
+    "quantized_time": {
+      "average_ms": 55.98383330895255,
+      "min_ms": 54.588799946941435,
+      "max_ms": 56.76800000946969
+    },
+    "speedup_percent": 70.20901868631806,
+    "accuracy": {
+      "original_detections": 2,
+      "quantized_detections": 2,
+      "original_confidence": 0.8458825945854187,
+      "quantized_confidence": 0.8458825945854187,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  },
+  {
+    "image_path": "yolo_images\\bicycle\\000013.jpg",
+    "original_time": {
+      "average_ms": 76.24200005860378,
+      "min_ms": 68.83110001217574,
+      "max_ms": 90.49190010409802
+    },
+    "quantized_time": {
+      "average_ms": 55.18459998226414,
+      "min_ms": 54.6019000466913,
+      "max_ms": 56.013999972492456
+    },
+    "speedup_percent": 38.158109478201,
+    "accuracy": {
+      "original_detections": 2,
+      "quantized_detections": 2,
+      "original_confidence": 0.909244179725647,
+      "quantized_confidence": 0.909244179725647,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  }
+]

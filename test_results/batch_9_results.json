@@ -1,0 +1,232 @@
+[
+  {
+    "image_path": "yolo_images\\person\\000014.jpg",
+    "original_time": {
+      "average_ms": 70.92986667218308,
+      "min_ms": 68.84189997799695,
+      "max_ms": 72.58509995881468
+    },
+    "quantized_time": {
+      "average_ms": 65.79896667972207,
+      "min_ms": 60.973200015723705,
+      "max_ms": 68.6738999793306
+    },
+    "speedup_percent": 7.797842810261413,
+    "accuracy": {
+      "original_detections": 1,
+      "quantized_detections": 1,
+      "original_confidence": 0.2835008203983307,
+      "quantized_confidence": 0.2835008203983307,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  },
+  {
+    "image_path": "yolo_images\\person\\000016.jpg",
+    "original_time": {
+      "average_ms": 112.49253332304458,
+      "min_ms": 111.64299992378801,
+      "max_ms": 112.95249999966472
+    },
+    "quantized_time": {
+      "average_ms": 63.85843335495641,
+      "min_ms": 60.004099970683455,
+      "max_ms": 67.30009999591857
+    },
+    "speedup_percent": 76.15924383511894,
+    "accuracy": {
+      "original_detections": 3,
+      "quantized_detections": 3,
+      "original_confidence": 0.5234946608543396,
+      "quantized_confidence": 0.5234946608543396,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  },
+  {
+    "image_path": "yolo_images\\person\\000017.jpg",
+    "original_time": {
+      "average_ms": 89.48263335817803,
+      "min_ms": 80.85149992257357,
+      "max_ms": 106.1132000759244
+    },
+    "quantized_time": {
+      "average_ms": 54.63373335078359,
+      "min_ms": 53.56880009640008,
+      "max_ms": 55.178500013425946
+    },
+    "speedup_percent": 63.786415223799864,
+    "accuracy": {
+      "original_detections": 1,
+      "quantized_detections": 1,
+      "original_confidence": 0.9134382605552673,
+      "quantized_confidence": 0.9134382605552673,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  },
+  {
+    "image_path": "yolo_images\\person\\000012.jpg",
+    "original_time": {
+      "average_ms": 57.37266666255891,
+      "min_ms": 57.01059999410063,
+      "max_ms": 57.92139994446188
+    },
+    "quantized_time": {
+      "average_ms": 56.477933384788535,
+      "min_ms": 55.48590002581477,
+      "max_ms": 57.32800008263439
+    },
+    "speedup_percent": 1.584217452990866,
+    "accuracy": {
+      "original_detections": 8,
+      "quantized_detections": 8,
+      "original_confidence": 0.8660773038864136,
+      "quantized_confidence": 0.8660773038864136,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  },
+  {
+    "image_path": "yolo_images\\person\\000009.jpg",
+    "original_time": {
+      "average_ms": 75.4372999848177,
+      "min_ms": 71.88200007658452,
+      "max_ms": 80.25559992529452
+    },
+    "quantized_time": {
+      "average_ms": 55.032499988252916,
+      "min_ms": 53.993099951185286,
+      "max_ms": 55.827299947850406
+    },
+    "speedup_percent": 37.07772679947365,
+    "accuracy": {
+      "original_detections": 1,
+      "quantized_detections": 1,
+      "original_confidence": 0.918543815612793,
+      "quantized_confidence": 0.918543815612793,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  },
+  {
+    "image_path": "yolo_images\\person\\000005.jpg",
+    "original_time": {
+      "average_ms": 139.9871000321582,
+      "min_ms": 138.26470007188618,
+      "max_ms": 140.9611999988556
+    },
+    "quantized_time": {
+      "average_ms": 66.26559991855174,
+      "min_ms": 65.59109990485013,
+      "max_ms": 67.25699990056455
+    },
+    "speedup_percent": 111.25153956837165,
+    "accuracy": {
+      "original_detections": 2,
+      "quantized_detections": 2,
+      "original_confidence": 0.8483773469924927,
+      "quantized_confidence": 0.8483773469924927,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  },
+  {
+    "image_path": "yolo_images\\person\\000018.jpg",
+    "original_time": {
+      "average_ms": 115.82253330076735,
+      "min_ms": 114.81099994853139,
+      "max_ms": 117.2377000330016
+    },
+    "quantized_time": {
+      "average_ms": 55.0159999790291,
+      "min_ms": 54.62650000117719,
+      "max_ms": 55.568299954757094
+    },
+    "speedup_percent": 110.52518057458988,
+    "accuracy": {
+      "original_detections": 1,
+      "quantized_detections": 1,
+      "original_confidence": 0.9274203777313232,
+      "quantized_confidence": 0.9274203777313232,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  },
+  {
+    "image_path": "yolo_images\\person\\000006.jpg",
+    "original_time": {
+      "average_ms": 133.7993999865527,
+      "min_ms": 130.59779989998788,
+      "max_ms": 138.49470007698983
+    },
+    "quantized_time": {
+      "average_ms": 60.863333366190396,
+      "min_ms": 55.26150006335229,
+      "max_ms": 65.58130006305873
+    },
+    "speedup_percent": 119.83580685851543,
+    "accuracy": {
+      "original_detections": 1,
+      "quantized_detections": 1,
+      "original_confidence": 0.9289225339889526,
+      "quantized_confidence": 0.9289225339889526,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  },
+  {
+    "image_path": "yolo_images\\person\\000013.jpg",
+    "original_time": {
+      "average_ms": 68.66776671571036,
+      "min_ms": 68.07660008780658,
+      "max_ms": 69.26819996442646
+    },
+    "quantized_time": {
+      "average_ms": 54.24126668367535,
+      "min_ms": 53.88580006547272,
+      "max_ms": 54.9285999732092
+    },
+    "speedup_percent": 26.59690843166991,
+    "accuracy": {
+      "original_detections": 1,
+      "quantized_detections": 1,
+      "original_confidence": 0.9391403198242188,
+      "quantized_confidence": 0.9391403198242188,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  },
+  {
+    "image_path": "yolo_images\\person\\person_4.jpg",
+    "original_time": {
+      "average_ms": 76.84256664166848,
+      "min_ms": 74.94399999268353,
+      "max_ms": 78.51759996265173
+    },
+    "quantized_time": {
+      "average_ms": 54.966433284183346,
+      "min_ms": 54.302999982610345,
+      "max_ms": 55.77739991713315
+    },
+    "speedup_percent": 39.7990774558407,
+    "accuracy": {
+      "original_detections": 0,
+      "quantized_detections": 0,
+      "original_confidence": 0,
+      "quantized_confidence": 0,
+      "confidence_diff_percent": 0,
+      "average_iou": 0.92,
+      "detection_match_percent": 100
+    }
+  }
+]

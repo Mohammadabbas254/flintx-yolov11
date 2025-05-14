@@ -1,0 +1,49 @@
+{
+  "quantization": {
+    "original_size_mb": 155.90174102783203,
+    "quantized_size_mb": 10.233904838562012,
+    "size_reduction_percent": 93.4356699475633,
+    "quantization_time_seconds": 0.06857010000385344
+  },
+  "memory": {
+    "original_memory_mb": 70.13046874999998,
+    "quantized_memory_mb": 10.070442199707031,
+    "memory_reduction_percent": 85.6404179535631
+  },
+  "performance": {
+    "avg_original_time_ms": 105.19054483331274,
+    "avg_quantized_time_ms": 61.46953666834936,
+    "avg_speedup_percent": 75.91699666965297
+  },
+  "accuracy": {
+    "avg_iou": 0.988,
+    "avg_detection_match_percent": 98.72279942279941,
+    "avg_confidence_diff_percent": 0.5095563946678767
+  },
+  "test_details": {
+    "total_images_tested": 200,
+    "valid_tests": 200,
+    "failed_tests": 0
+  },
+  "comparison": {
+    "original_avg_time_ms": 105.19054483331274,
+    "quantized_avg_time_ms": 61.46953666834936,
+    "quantized_speedup_percent": 75.91699666965297,
+    "original_memory_mb": 70.13046874999998,
+    "quantized_memory_mb": 10.070442199707031,
+    "memory_reduction_percent": 85.6404179535631,
+    "original_size_mb": 155.90174102783203,
+    "quantized_size_mb": 10.233904838562012,
+    "size_reduction_percent": 93.4356699475633,
+    "quantization_time_seconds": 0.06857010000385344,
+    "accuracy_metrics": {
+      "original_detections": 2,
+      "quantized_detections": 2,
+      "original_confidence": 0.6257152406871319,
+      "quantized_confidence": 0.622375039756298,
+      "confidence_diff_percent": 0.5095563946678767,
+      "detection_match_percent": 98.72279942279941,
+      "average_iou": 0.988
+    }
+  }
+}

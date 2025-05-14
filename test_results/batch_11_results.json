@@ -1,0 +1,232 @@
+[
+  {
+    "image_path": "yolo_images\\bus\\000011.jpg",
+    "original_time": {
+      "average_ms": 129.50409999272475,
+      "min_ms": 113.41099999845028,
+      "max_ms": 137.81640003435314
+    },
+    "quantized_time": {
+      "average_ms": 69.95736664005865,
+      "min_ms": 67.38729996141046,
+      "max_ms": 72.49789999332279
+    },
+    "speedup_percent": 85.11860324737943,
+    "accuracy": {
+      "original_detections": 4,
+      "quantized_detections": 4,
+      "original_confidence": 0.7875356078147888,
+      "quantized_confidence": 0.7875356078147888,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  },
+  {
+    "image_path": "yolo_images\\bus\\000012.jpg",
+    "original_time": {
+      "average_ms": 96.0963999774928,
+      "min_ms": 93.73580000828952,
+      "max_ms": 97.90970000904053
+    },
+    "quantized_time": {
+      "average_ms": 56.20353331323713,
+      "min_ms": 55.06629997398704,
+      "max_ms": 57.14729998726398
+    },
+    "speedup_percent": 70.97928602090224,
+    "accuracy": {
+      "original_detections": 8,
+      "quantized_detections": 9,
+      "original_confidence": 0.5183972120285034,
+      "quantized_confidence": 0.49030357599258423,
+      "confidence_diff_percent": 5.419326220136867,
+      "average_iou": 1.0,
+      "detection_match_percent": 88.88888888888889
+    }
+  },
+  {
+    "image_path": "yolo_images\\bus\\000013.jpg",
+    "original_time": {
+      "average_ms": 68.98026665051778,
+      "min_ms": 66.47650001104921,
+      "max_ms": 71.55669992789626
+    },
+    "quantized_time": {
+      "average_ms": 69.16133333773662,
+      "min_ms": 68.03339999169111,
+      "max_ms": 71.1991999996826
+    },
+    "speedup_percent": -0.26249055854801195,
+    "accuracy": {
+      "original_detections": 6,
+      "quantized_detections": 7,
+      "original_confidence": 0.5874518752098083,
+      "quantized_confidence": 0.5567039847373962,
+      "confidence_diff_percent": 5.234112234543554,
+      "average_iou": 1.0,
+      "detection_match_percent": 85.71428571428571
+    }
+  },
+  {
+    "image_path": "yolo_images\\bus\\000014.jpg",
+    "original_time": {
+      "average_ms": 75.89913334231824,
+      "min_ms": 74.41550004296005,
+      "max_ms": 77.43820000905544
+    },
+    "quantized_time": {
+      "average_ms": 75.72126667946577,
+      "min_ms": 70.6233000382781,
+      "max_ms": 78.69350002147257
+    },
+    "speedup_percent": 0.23489657615658466,
+    "accuracy": {
+      "original_detections": 1,
+      "quantized_detections": 1,
+      "original_confidence": 0.9383254647254944,
+      "quantized_confidence": 0.9383254647254944,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  },
+  {
+    "image_path": "yolo_images\\bus\\000015.jpg",
+    "original_time": {
+      "average_ms": 106.4759000049283,
+      "min_ms": 103.52630005218089,
+      "max_ms": 107.9780999571085
+    },
+    "quantized_time": {
+      "average_ms": 55.30596664175391,
+      "min_ms": 54.432000033557415,
+      "max_ms": 55.892799980938435
+    },
+    "speedup_percent": 92.5215423764839,
+    "accuracy": {
+      "original_detections": 6,
+      "quantized_detections": 7,
+      "original_confidence": 0.5866995453834534,
+      "quantized_confidence": 0.5594753623008728,
+      "confidence_diff_percent": 4.64022569930363,
+      "average_iou": 1.0,
+      "detection_match_percent": 85.71428571428571
+    }
+  },
+  {
+    "image_path": "yolo_images\\bus\\000016.jpg",
+    "original_time": {
+      "average_ms": 55.49026668692628,
+      "min_ms": 54.988999967463315,
+      "max_ms": 55.77640002593398
+    },
+    "quantized_time": {
+      "average_ms": 56.40089996935179,
+      "min_ms": 54.68910001218319,
+      "max_ms": 57.603799970820546
+    },
+    "speedup_percent": -1.6410684914586193,
+    "accuracy": {
+      "original_detections": 0,
+      "quantized_detections": 0,
+      "original_confidence": 0,
+      "quantized_confidence": 0,
+      "confidence_diff_percent": 0,
+      "average_iou": 0.92,
+      "detection_match_percent": 100
+    }
+  },
+  {
+    "image_path": "yolo_images\\bus\\000017.jpg",
+    "original_time": {
+      "average_ms": 51.76283333760997,
+      "min_ms": 50.361800007522106,
+      "max_ms": 52.46769997756928
+    },
+    "quantized_time": {
+      "average_ms": 54.47576668423911,
+      "min_ms": 54.16920001152903,
+      "max_ms": 54.91040006745607
+    },
+    "speedup_percent": -5.241083556873183,
+    "accuracy": {
+      "original_detections": 0,
+      "quantized_detections": 0,
+      "original_confidence": 0,
+      "quantized_confidence": 0,
+      "confidence_diff_percent": 0,
+      "average_iou": 0.92,
+      "detection_match_percent": 100
+    }
+  },
+  {
+    "image_path": "yolo_images\\bus\\bus_13.jpg",
+    "original_time": {
+      "average_ms": 76.26796665135771,
+      "min_ms": 74.61740006692708,
+      "max_ms": 77.76039990130812
+    },
+    "quantized_time": {
+      "average_ms": 80.0430999758343,
+      "min_ms": 74.50949994381517,
+      "max_ms": 84.88179999403656
+    },
+    "speedup_percent": -4.949828204721629,
+    "accuracy": {
+      "original_detections": 1,
+      "quantized_detections": 1,
+      "original_confidence": 0.6417016386985779,
+      "quantized_confidence": 0.6417016386985779,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  },
+  {
+    "image_path": "yolo_images\\bus\\bus_17.jpg",
+    "original_time": {
+      "average_ms": 90.08589996180187,
+      "min_ms": 84.06979998108,
+      "max_ms": 101.74869990441948
+    },
+    "quantized_time": {
+      "average_ms": 75.7590999904399,
+      "min_ms": 65.3300000121817,
+      "max_ms": 92.05740003380924
+    },
+    "speedup_percent": 18.910995475355264,
+    "accuracy": {
+      "original_detections": 2,
+      "quantized_detections": 2,
+      "original_confidence": 0.5415688753128052,
+      "quantized_confidence": 0.5415688753128052,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  },
+  {
+    "image_path": "yolo_images\\bus\\bus_9.jpg",
+    "original_time": {
+      "average_ms": 89.11103336140513,
+      "min_ms": 88.16640009172261,
+      "max_ms": 90.28770006261766
+    },
+    "quantized_time": {
+      "average_ms": 75.0277666375041,
+      "min_ms": 65.25240000337362,
+      "max_ms": 85.53269994445145
+    },
+    "speedup_percent": 18.770739627562417,
+    "accuracy": {
+      "original_detections": 1,
+      "quantized_detections": 1,
+      "original_confidence": 0.6272940635681152,
+      "quantized_confidence": 0.6272940635681152,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  }
+]

@@ -1,0 +1,232 @@
+[
+  {
+    "image_path": "yolo_images\\airplane\\000016.jpg",
+    "original_time": {
+      "average_ms": 103.01343332200001,
+      "min_ms": 99.44749996066093,
+      "max_ms": 106.91430000588298
+    },
+    "quantized_time": {
+      "average_ms": 60.55266666226089,
+      "min_ms": 58.89109999407083,
+      "max_ms": 63.423799932934344
+    },
+    "speedup_percent": 70.12204251312116,
+    "accuracy": {
+      "original_detections": 1,
+      "quantized_detections": 1,
+      "original_confidence": 0.9363203048706055,
+      "quantized_confidence": 0.9363203048706055,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  },
+  {
+    "image_path": "yolo_images\\airplane\\000004.jpg",
+    "original_time": {
+      "average_ms": 337.5869333200778,
+      "min_ms": 324.0625000325963,
+      "max_ms": 351.7427999759093
+    },
+    "quantized_time": {
+      "average_ms": 57.060466652425625,
+      "min_ms": 55.730000021867454,
+      "max_ms": 59.06889995094389
+    },
+    "speedup_percent": 491.63016555127854,
+    "accuracy": {
+      "original_detections": 1,
+      "quantized_detections": 1,
+      "original_confidence": 0.9192435145378113,
+      "quantized_confidence": 0.9192435145378113,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  },
+  {
+    "image_path": "yolo_images\\airplane\\airplane_15.jpg",
+    "original_time": {
+      "average_ms": 78.87313332563888,
+      "min_ms": 77.43010006379336,
+      "max_ms": 81.14579995162785
+    },
+    "quantized_time": {
+      "average_ms": 56.00506664874653,
+      "min_ms": 55.01929996535182,
+      "max_ms": 57.350700022652745
+    },
+    "speedup_percent": 40.832139028271584,
+    "accuracy": {
+      "original_detections": 1,
+      "quantized_detections": 1,
+      "original_confidence": 0.46078357100486755,
+      "quantized_confidence": 0.46078357100486755,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  },
+  {
+    "image_path": "yolo_images\\airplane\\000006.jpg",
+    "original_time": {
+      "average_ms": 162.16923331376165,
+      "min_ms": 160.28569999616593,
+      "max_ms": 163.41409995220602
+    },
+    "quantized_time": {
+      "average_ms": 67.63186666648835,
+      "min_ms": 66.91589998081326,
+      "max_ms": 68.2539000408724
+    },
+    "speedup_percent": 139.78228209116793,
+    "accuracy": {
+      "original_detections": 1,
+      "quantized_detections": 1,
+      "original_confidence": 0.9046763777732849,
+      "quantized_confidence": 0.9046763777732849,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  },
+  {
+    "image_path": "yolo_images\\airplane\\000013.jpg",
+    "original_time": {
+      "average_ms": 64.3315666820854,
+      "min_ms": 62.754099955782294,
+      "max_ms": 65.35950000397861
+    },
+    "quantized_time": {
+      "average_ms": 62.55456665530801,
+      "min_ms": 55.53460004739463,
+      "max_ms": 66.94679998327047
+    },
+    "speedup_percent": 2.8407199055012544,
+    "accuracy": {
+      "original_detections": 1,
+      "quantized_detections": 1,
+      "original_confidence": 0.8724671602249146,
+      "quantized_confidence": 0.8724671602249146,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  },
+  {
+    "image_path": "yolo_images\\airplane\\000009.jpg",
+    "original_time": {
+      "average_ms": 114.58896667075653,
+      "min_ms": 113.9186000218615,
+      "max_ms": 115.57580006774515
+    },
+    "quantized_time": {
+      "average_ms": 57.798633351922035,
+      "min_ms": 55.60349998995662,
+      "max_ms": 60.51880004815757
+    },
+    "speedup_percent": 98.25549502710862,
+    "accuracy": {
+      "original_detections": 1,
+      "quantized_detections": 1,
+      "original_confidence": 0.8912391066551208,
+      "quantized_confidence": 0.8912391066551208,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  },
+  {
+    "image_path": "yolo_images\\airplane\\000014.jpg",
+    "original_time": {
+      "average_ms": 82.63929999278237,
+      "min_ms": 82.47280004434288,
+      "max_ms": 82.72850001230836
+    },
+    "quantized_time": {
+      "average_ms": 55.512099992483854,
+      "min_ms": 54.36720000579953,
+      "max_ms": 56.64189998060465
+    },
+    "speedup_percent": 48.86718391840959,
+    "accuracy": {
+      "original_detections": 1,
+      "quantized_detections": 1,
+      "original_confidence": 0.8951186537742615,
+      "quantized_confidence": 0.8951186537742615,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  },
+  {
+    "image_path": "yolo_images\\airplane\\000002.jpg",
+    "original_time": {
+      "average_ms": 301.6892666540419,
+      "min_ms": 300.35089992452413,
+      "max_ms": 302.8927000705153
+    },
+    "quantized_time": {
+      "average_ms": 54.61723334155977,
+      "min_ms": 54.18730003293604,
+      "max_ms": 55.12639996595681
+    },
+    "speedup_percent": 452.37010041751444,
+    "accuracy": {
+      "original_detections": 1,
+      "quantized_detections": 1,
+      "original_confidence": 0.8655232191085815,
+      "quantized_confidence": 0.8655232191085815,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  },
+  {
+    "image_path": "yolo_images\\airplane\\000015.jpg",
+    "original_time": {
+      "average_ms": 61.19296664837748,
+      "min_ms": 60.29379996471107,
+      "max_ms": 62.80640000477433
+    },
+    "quantized_time": {
+      "average_ms": 54.74550001478443,
+      "min_ms": 53.131200023926795,
+      "max_ms": 57.67570005264133
+    },
+    "speedup_percent": 11.777162747352499,
+    "accuracy": {
+      "original_detections": 1,
+      "quantized_detections": 1,
+      "original_confidence": 0.9424607753753662,
+      "quantized_confidence": 0.9424607753753662,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  },
+  {
+    "image_path": "yolo_images\\airplane\\airplane_6.jpg",
+    "original_time": {
+      "average_ms": 75.28796667853992,
+      "min_ms": 74.05870000366122,
+      "max_ms": 75.94800007063895
+    },
+    "quantized_time": {
+      "average_ms": 56.37473329746475,
+      "min_ms": 55.55379996076226,
+      "max_ms": 57.17829999048263
+    },
+    "speedup_percent": 33.54913145447327,
+    "accuracy": {
+      "original_detections": 0,
+      "quantized_detections": 0,
+      "original_confidence": 0,
+      "quantized_confidence": 0,
+      "confidence_diff_percent": 0,
+      "average_iou": 0.92,
+      "detection_match_percent": 100
+    }
+  }
+]

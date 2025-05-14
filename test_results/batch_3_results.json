@@ -1,0 +1,232 @@
+[
+  {
+    "image_path": "yolo_images\\car\\000020.jpg",
+    "original_time": {
+      "average_ms": 142.29693333618343,
+      "min_ms": 138.12120002694428,
+      "max_ms": 144.81159998103976
+    },
+    "quantized_time": {
+      "average_ms": 62.37546668853611,
+      "min_ms": 56.128400028683245,
+      "max_ms": 69.2038000561297
+    },
+    "speedup_percent": 128.1296491883979,
+    "accuracy": {
+      "original_detections": 1,
+      "quantized_detections": 1,
+      "original_confidence": 0.8528193235397339,
+      "quantized_confidence": 0.8528193235397339,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  },
+  {
+    "image_path": "yolo_images\\car\\000013.jpg",
+    "original_time": {
+      "average_ms": 65.85993338376284,
+      "min_ms": 64.45250008255243,
+      "max_ms": 67.17950000893325
+    },
+    "quantized_time": {
+      "average_ms": 65.62960000398259,
+      "min_ms": 64.19459998141974,
+      "max_ms": 67.49689998105168
+    },
+    "speedup_percent": 0.35095959714255276,
+    "accuracy": {
+      "original_detections": 1,
+      "quantized_detections": 1,
+      "original_confidence": 0.25022321939468384,
+      "quantized_confidence": 0.25022321939468384,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  },
+  {
+    "image_path": "yolo_images\\car\\000010.jpg",
+    "original_time": {
+      "average_ms": 75.44726664976527,
+      "min_ms": 71.24750001821667,
+      "max_ms": 82.61399995535612
+    },
+    "quantized_time": {
+      "average_ms": 66.80580003497501,
+      "min_ms": 64.88229997921735,
+      "max_ms": 69.64500003959984
+    },
+    "speedup_percent": 12.93520414435001,
+    "accuracy": {
+      "original_detections": 1,
+      "quantized_detections": 1,
+      "original_confidence": 0.45857200026512146,
+      "quantized_confidence": 0.45857200026512146,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  },
+  {
+    "image_path": "yolo_images\\car\\000016.jpg",
+    "original_time": {
+      "average_ms": 98.50973337112616,
+      "min_ms": 95.77010001521558,
+      "max_ms": 100.84490000735968
+    },
+    "quantized_time": {
+      "average_ms": 60.801133319425084,
+      "min_ms": 55.59130001347512,
+      "max_ms": 67.66489997971803
+    },
+    "speedup_percent": 62.01956771692893,
+    "accuracy": {
+      "original_detections": 10,
+      "quantized_detections": 11,
+      "original_confidence": 0.48439741134643555,
+      "quantized_confidence": 0.4731159508228302,
+      "confidence_diff_percent": 2.328967962947468,
+      "average_iou": 1.0,
+      "detection_match_percent": 90.9090909090909
+    }
+  },
+  {
+    "image_path": "yolo_images\\car\\000008.jpg",
+    "original_time": {
+      "average_ms": 179.30590000469238,
+      "min_ms": 178.5377999767661,
+      "max_ms": 180.52950000856072
+    },
+    "quantized_time": {
+      "average_ms": 56.162566683876015,
+      "min_ms": 55.03139994107187,
+      "max_ms": 57.998500065878034
+    },
+    "speedup_percent": 219.2622962087133,
+    "accuracy": {
+      "original_detections": 1,
+      "quantized_detections": 1,
+      "original_confidence": 0.8588647842407227,
+      "quantized_confidence": 0.8588647842407227,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  },
+  {
+    "image_path": "yolo_images\\car\\000001.jpg",
+    "original_time": {
+      "average_ms": 107.46559997399648,
+      "min_ms": 102.11119998712093,
+      "max_ms": 116.98479996994138
+    },
+    "quantized_time": {
+      "average_ms": 67.96286666455369,
+      "min_ms": 65.62350003514439,
+      "max_ms": 71.97920000180602
+    },
+    "speedup_percent": 58.12399512871873,
+    "accuracy": {
+      "original_detections": 1,
+      "quantized_detections": 1,
+      "original_confidence": 0.811842143535614,
+      "quantized_confidence": 0.811842143535614,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  },
+  {
+    "image_path": "yolo_images\\car\\000018.jpg",
+    "original_time": {
+      "average_ms": 76.62593336620678,
+      "min_ms": 69.10480000078678,
+      "max_ms": 85.37920005619526
+    },
+    "quantized_time": {
+      "average_ms": 56.461966635348894,
+      "min_ms": 55.62050000298768,
+      "max_ms": 57.772799977101386
+    },
+    "speedup_percent": 35.71247679182665,
+    "accuracy": {
+      "original_detections": 1,
+      "quantized_detections": 1,
+      "original_confidence": 0.8430514335632324,
+      "quantized_confidence": 0.8430514335632324,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  },
+  {
+    "image_path": "yolo_images\\car\\000012.jpg",
+    "original_time": {
+      "average_ms": 73.40989999162655,
+      "min_ms": 73.09540000278503,
+      "max_ms": 73.80460004787892
+    },
+    "quantized_time": {
+      "average_ms": 56.30226666107774,
+      "min_ms": 54.85449999105185,
+      "max_ms": 58.40049998369068
+    },
+    "speedup_percent": 30.38533676367148,
+    "accuracy": {
+      "original_detections": 1,
+      "quantized_detections": 1,
+      "original_confidence": 0.8524906039237976,
+      "quantized_confidence": 0.8524906039237976,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  },
+  {
+    "image_path": "yolo_images\\car\\000006.jpg",
+    "original_time": {
+      "average_ms": 109.90423336625099,
+      "min_ms": 107.99440008122474,
+      "max_ms": 113.64270001649857
+    },
+    "quantized_time": {
+      "average_ms": 57.26709996815771,
+      "min_ms": 56.46509991493076,
+      "max_ms": 57.95019993092865
+    },
+    "speedup_percent": 91.91513701123537,
+    "accuracy": {
+      "original_detections": 3,
+      "quantized_detections": 3,
+      "original_confidence": 0.5550249814987183,
+      "quantized_confidence": 0.5550249814987183,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  },
+  {
+    "image_path": "yolo_images\\car\\000014.jpg",
+    "original_time": {
+      "average_ms": 75.81250000900279,
+      "min_ms": 69.25509998109192,
+      "max_ms": 85.57090000249445
+    },
+    "quantized_time": {
+      "average_ms": 87.94330002274364,
+      "min_ms": 76.39360008761287,
+      "max_ms": 96.2332000490278
+    },
+    "speedup_percent": -16.001055251179295,
+    "accuracy": {
+      "original_detections": 20,
+      "quantized_detections": 20,
+      "original_confidence": 0.6956059336662292,
+      "quantized_confidence": 0.6956059336662292,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  }
+]

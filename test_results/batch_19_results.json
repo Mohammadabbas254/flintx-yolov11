@@ -1,0 +1,232 @@
+[
+  {
+    "image_path": "yolo_images\\chair\\000019.jpg",
+    "original_time": {
+      "average_ms": 82.10836665239185,
+      "min_ms": 79.70699993893504,
+      "max_ms": 84.00180004537106
+    },
+    "quantized_time": {
+      "average_ms": 50.160333358993135,
+      "min_ms": 49.87990006338805,
+      "max_ms": 50.45480001717806
+    },
+    "speedup_percent": 63.69182809202927,
+    "accuracy": {
+      "original_detections": 2,
+      "quantized_detections": 2,
+      "original_confidence": 0.43511462211608887,
+      "quantized_confidence": 0.43511462211608887,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  },
+  {
+    "image_path": "yolo_images\\cat\\000015.jpg",
+    "original_time": {
+      "average_ms": 101.36359999887645,
+      "min_ms": 98.50369999185205,
+      "max_ms": 104.7852000920102
+    },
+    "quantized_time": {
+      "average_ms": 49.838000015976526,
+      "min_ms": 49.58490002900362,
+      "max_ms": 50.31269998289645
+    },
+    "speedup_percent": 103.386171127217,
+    "accuracy": {
+      "original_detections": 1,
+      "quantized_detections": 1,
+      "original_confidence": 0.9229254722595215,
+      "quantized_confidence": 0.9229254722595215,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  },
+  {
+    "image_path": "yolo_images\\person\\000015.jpg",
+    "original_time": {
+      "average_ms": 47.704233322292566,
+      "min_ms": 46.91770009230822,
+      "max_ms": 49.039899953641
+    },
+    "quantized_time": {
+      "average_ms": 61.42163334880024,
+      "min_ms": 56.65530008263886,
+      "max_ms": 64.82640001922846
+    },
+    "speedup_percent": -28.755100063828976,
+    "accuracy": {
+      "original_detections": 27,
+      "quantized_detections": 27,
+      "original_confidence": 0.5726382732391357,
+      "quantized_confidence": 0.5726382732391357,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  },
+  {
+    "image_path": "yolo_images\\dog\\000003.jpg",
+    "original_time": {
+      "average_ms": 83.91463337466121,
+      "min_ms": 81.41370001249015,
+      "max_ms": 86.54360007494688
+    },
+    "quantized_time": {
+      "average_ms": 49.8403333282719,
+      "min_ms": 49.31949998717755,
+      "max_ms": 50.526199978776276
+    },
+    "speedup_percent": 68.36691845931271,
+    "accuracy": {
+      "original_detections": 1,
+      "quantized_detections": 1,
+      "original_confidence": 0.9429731369018555,
+      "quantized_confidence": 0.9429731369018555,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  },
+  {
+    "image_path": "yolo_images\\airplane\\000011.jpg",
+    "original_time": {
+      "average_ms": 62.99113334777454,
+      "min_ms": 62.66249995678663,
+      "max_ms": 63.23750002775341
+    },
+    "quantized_time": {
+      "average_ms": 49.05566666275263,
+      "min_ms": 48.93759998958558,
+      "max_ms": 49.20160002075136
+    },
+    "speedup_percent": 28.407455515435775,
+    "accuracy": {
+      "original_detections": 1,
+      "quantized_detections": 1,
+      "original_confidence": 0.8661110997200012,
+      "quantized_confidence": 0.8661110997200012,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  },
+  {
+    "image_path": "yolo_images\\airplane\\000010.jpg",
+    "original_time": {
+      "average_ms": 231.7842999861265,
+      "min_ms": 226.38600005302578,
+      "max_ms": 238.71099995449185
+    },
+    "quantized_time": {
+      "average_ms": 50.08760005390892,
+      "min_ms": 49.60000002756715,
+      "max_ms": 50.649700104258955
+    },
+    "speedup_percent": 362.7578477241048,
+    "accuracy": {
+      "original_detections": 2,
+      "quantized_detections": 2,
+      "original_confidence": 0.58223557472229,
+      "quantized_confidence": 0.58223557472229,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  },
+  {
+    "image_path": "yolo_images\\cat\\000009.jpg",
+    "original_time": {
+      "average_ms": 226.41616667776057,
+      "min_ms": 198.65369994658977,
+      "max_ms": 277.7961000101641
+    },
+    "quantized_time": {
+      "average_ms": 50.947533338330686,
+      "min_ms": 49.978500115685165,
+      "max_ms": 51.51239992119372
+    },
+    "speedup_percent": 344.41045884240094,
+    "accuracy": {
+      "original_detections": 2,
+      "quantized_detections": 2,
+      "original_confidence": 0.735058069229126,
+      "quantized_confidence": 0.735058069229126,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  },
+  {
+    "image_path": "yolo_images\\bicycle\\000015.jpg",
+    "original_time": {
+      "average_ms": 57.92956663450847,
+      "min_ms": 57.43410007562488,
+      "max_ms": 58.29779990017414
+    },
+    "quantized_time": {
+      "average_ms": 52.23816668149084,
+      "min_ms": 50.40980002377182,
+      "max_ms": 54.70360000617802
+    },
+    "speedup_percent": 10.895098956514904,
+    "accuracy": {
+      "original_detections": 1,
+      "quantized_detections": 1,
+      "original_confidence": 0.9264591932296753,
+      "quantized_confidence": 0.9264591932296753,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  },
+  {
+    "image_path": "yolo_images\\cat\\000002.jpg",
+    "original_time": {
+      "average_ms": 260.08943332514417,
+      "min_ms": 151.89020009711385,
+      "max_ms": 326.4713999815285
+    },
+    "quantized_time": {
+      "average_ms": 50.60506666389605,
+      "min_ms": 49.39930001273751,
+      "max_ms": 51.23049998655915
+    },
+    "speedup_percent": 413.95927418213205,
+    "accuracy": {
+      "original_detections": 1,
+      "quantized_detections": 1,
+      "original_confidence": 0.8897638320922852,
+      "quantized_confidence": 0.8897638320922852,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  },
+  {
+    "image_path": "yolo_images\\car\\000004.jpg",
+    "original_time": {
+      "average_ms": 117.66423331573606,
+      "min_ms": 117.11680004373193,
+      "max_ms": 118.49949997849762
+    },
+    "quantized_time": {
+      "average_ms": 58.67813329678029,
+      "min_ms": 51.68539995793253,
+      "max_ms": 64.45840001106262
+    },
+    "speedup_percent": 100.52484069426315,
+    "accuracy": {
+      "original_detections": 1,
+      "quantized_detections": 1,
+      "original_confidence": 0.8359470963478088,
+      "quantized_confidence": 0.8359470963478088,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  }
+]

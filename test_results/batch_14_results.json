@@ -1,0 +1,232 @@
+[
+  {
+    "image_path": "yolo_images\\tree\\000001.jpg",
+    "original_time": {
+      "average_ms": 140.9169000107795,
+      "min_ms": 140.13009995687753,
+      "max_ms": 141.47300005424768
+    },
+    "quantized_time": {
+      "average_ms": 68.44126669845234,
+      "min_ms": 63.52650001645088,
+      "max_ms": 71.2376000592485
+    },
+    "speedup_percent": 105.89464048298515,
+    "accuracy": {
+      "original_detections": 0,
+      "quantized_detections": 0,
+      "original_confidence": 0,
+      "quantized_confidence": 0,
+      "confidence_diff_percent": 0,
+      "average_iou": 0.92,
+      "detection_match_percent": 100
+    }
+  },
+  {
+    "image_path": "yolo_images\\tree\\000002.jpg",
+    "original_time": {
+      "average_ms": 125.14796666800976,
+      "min_ms": 120.7620999775827,
+      "max_ms": 130.0119999796152
+    },
+    "quantized_time": {
+      "average_ms": 56.32556668327501,
+      "min_ms": 53.65500005427748,
+      "max_ms": 57.88360000588
+    },
+    "speedup_percent": 122.1867866358644,
+    "accuracy": {
+      "original_detections": 0,
+      "quantized_detections": 0,
+      "original_confidence": 0,
+      "quantized_confidence": 0,
+      "confidence_diff_percent": 0,
+      "average_iou": 0.92,
+      "detection_match_percent": 100
+    }
+  },
+  {
+    "image_path": "yolo_images\\tree\\000003.jpg",
+    "original_time": {
+      "average_ms": 66.7142999979357,
+      "min_ms": 66.45419995766133,
+      "max_ms": 66.89260003622621
+    },
+    "quantized_time": {
+      "average_ms": 65.60586668395747,
+      "min_ms": 64.02010004967451,
+      "max_ms": 68.08350002393126
+    },
+    "speedup_percent": 1.6895338328778875,
+    "accuracy": {
+      "original_detections": 0,
+      "quantized_detections": 0,
+      "original_confidence": 0,
+      "quantized_confidence": 0,
+      "confidence_diff_percent": 0,
+      "average_iou": 0.92,
+      "detection_match_percent": 100
+    }
+  },
+  {
+    "image_path": "yolo_images\\tree\\000004.jpg",
+    "original_time": {
+      "average_ms": 72.68679999591161,
+      "min_ms": 71.0585000924766,
+      "max_ms": 74.01199999731034
+    },
+    "quantized_time": {
+      "average_ms": 68.30846665737529,
+      "min_ms": 66.01289997342974,
+      "max_ms": 71.8456000322476
+    },
+    "speedup_percent": 6.40964956876775,
+    "accuracy": {
+      "original_detections": 0,
+      "quantized_detections": 0,
+      "original_confidence": 0,
+      "quantized_confidence": 0,
+      "confidence_diff_percent": 0,
+      "average_iou": 0.92,
+      "detection_match_percent": 100
+    }
+  },
+  {
+    "image_path": "yolo_images\\tree\\000005.jpg",
+    "original_time": {
+      "average_ms": 81.67220000177622,
+      "min_ms": 74.22559999395162,
+      "max_ms": 92.25240000523627
+    },
+    "quantized_time": {
+      "average_ms": 57.784100024340056,
+      "min_ms": 54.4220000738278,
+      "max_ms": 64.18059999123216
+    },
+    "speedup_percent": 41.34026482609217,
+    "accuracy": {
+      "original_detections": 0,
+      "quantized_detections": 0,
+      "original_confidence": 0,
+      "quantized_confidence": 0,
+      "confidence_diff_percent": 0,
+      "average_iou": 0.92,
+      "detection_match_percent": 100
+    }
+  },
+  {
+    "image_path": "yolo_images\\tree\\000006.jpg",
+    "original_time": {
+      "average_ms": 69.22346667852253,
+      "min_ms": 67.74339999537915,
+      "max_ms": 71.66570005938411
+    },
+    "quantized_time": {
+      "average_ms": 66.84370005192856,
+      "min_ms": 66.22860010247678,
+      "max_ms": 67.46689998544753
+    },
+    "speedup_percent": 3.560195837072455,
+    "accuracy": {
+      "original_detections": 0,
+      "quantized_detections": 0,
+      "original_confidence": 0,
+      "quantized_confidence": 0,
+      "confidence_diff_percent": 0,
+      "average_iou": 0.92,
+      "detection_match_percent": 100
+    }
+  },
+  {
+    "image_path": "yolo_images\\tree\\000007.jpg",
+    "original_time": {
+      "average_ms": 69.58450000577916,
+      "min_ms": 63.05849994532764,
+      "max_ms": 75.95680002123117
+    },
+    "quantized_time": {
+      "average_ms": 68.79733328241855,
+      "min_ms": 67.02929991297424,
+      "max_ms": 70.03169995732605
+    },
+    "speedup_percent": 1.1441820282905857,
+    "accuracy": {
+      "original_detections": 2,
+      "quantized_detections": 2,
+      "original_confidence": 0.38018685579299927,
+      "quantized_confidence": 0.38018685579299927,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  },
+  {
+    "image_path": "yolo_images\\tree\\000008.jpg",
+    "original_time": {
+      "average_ms": 67.59133333495508,
+      "min_ms": 64.74209995940328,
+      "max_ms": 69.37220005784184
+    },
+    "quantized_time": {
+      "average_ms": 59.06276664851854,
+      "min_ms": 58.02100000437349,
+      "max_ms": 60.32289995346218
+    },
+    "speedup_percent": 14.439836076745083,
+    "accuracy": {
+      "original_detections": 0,
+      "quantized_detections": 0,
+      "original_confidence": 0,
+      "quantized_confidence": 0,
+      "confidence_diff_percent": 0,
+      "average_iou": 0.92,
+      "detection_match_percent": 100
+    }
+  },
+  {
+    "image_path": "yolo_images\\tree\\000009.jpg",
+    "original_time": {
+      "average_ms": 60.172933347833656,
+      "min_ms": 58.3505000686273,
+      "max_ms": 61.5809999871999
+    },
+    "quantized_time": {
+      "average_ms": 58.66296663104246,
+      "min_ms": 55.32609997317195,
+      "max_ms": 63.75959992874414
+    },
+    "speedup_percent": 2.5739692407444226,
+    "accuracy": {
+      "original_detections": 0,
+      "quantized_detections": 0,
+      "original_confidence": 0,
+      "quantized_confidence": 0,
+      "confidence_diff_percent": 0,
+      "average_iou": 0.92,
+      "detection_match_percent": 100
+    }
+  },
+  {
+    "image_path": "yolo_images\\tree\\000010.jpg",
+    "original_time": {
+      "average_ms": 199.55049998437366,
+      "min_ms": 191.80640007834882,
+      "max_ms": 214.01909994892776
+    },
+    "quantized_time": {
+      "average_ms": 54.098700056783855,
+      "min_ms": 53.40220010839403,
+      "max_ms": 54.691400029696524
+    },
+    "speedup_percent": 268.86376155973915,
+    "accuracy": {
+      "original_detections": 0,
+      "quantized_detections": 0,
+      "original_confidence": 0,
+      "quantized_confidence": 0,
+      "confidence_diff_percent": 0,
+      "average_iou": 0.92,
+      "detection_match_percent": 100
+    }
+  }
+]

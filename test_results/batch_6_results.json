@@ -1,0 +1,232 @@
+[
+  {
+    "image_path": "yolo_images\\cat\\000001.jpg",
+    "original_time": {
+      "average_ms": 112.6266666688025,
+      "min_ms": 110.95179989933968,
+      "max_ms": 114.11670001689345
+    },
+    "quantized_time": {
+      "average_ms": 56.01816667088618,
+      "min_ms": 54.57669997122139,
+      "max_ms": 57.21770005766302
+    },
+    "speedup_percent": 101.05382478955161,
+    "accuracy": {
+      "original_detections": 1,
+      "quantized_detections": 1,
+      "original_confidence": 0.8917614221572876,
+      "quantized_confidence": 0.8917614221572876,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  },
+  {
+    "image_path": "yolo_images\\cat\\000019.jpg",
+    "original_time": {
+      "average_ms": 109.46616666236271,
+      "min_ms": 106.69749998487532,
+      "max_ms": 112.54150001332164
+    },
+    "quantized_time": {
+      "average_ms": 64.48126665782183,
+      "min_ms": 62.10989993996918,
+      "max_ms": 67.12959997821599
+    },
+    "speedup_percent": 69.7642933152338,
+    "accuracy": {
+      "original_detections": 1,
+      "quantized_detections": 1,
+      "original_confidence": 0.4010109007358551,
+      "quantized_confidence": 0.4010109007358551,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  },
+  {
+    "image_path": "yolo_images\\cat\\000013.jpg",
+    "original_time": {
+      "average_ms": 199.87780003187558,
+      "min_ms": 179.716500104405,
+      "max_ms": 228.9745999732986
+    },
+    "quantized_time": {
+      "average_ms": 56.051033354985215,
+      "min_ms": 54.2201999342069,
+      "max_ms": 58.41420008800924
+    },
+    "speedup_percent": 256.5996701006375,
+    "accuracy": {
+      "original_detections": 1,
+      "quantized_detections": 1,
+      "original_confidence": 0.7944284081459045,
+      "quantized_confidence": 0.7944284081459045,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  },
+  {
+    "image_path": "yolo_images\\cat\\000006.jpg",
+    "original_time": {
+      "average_ms": 85.24913329165429,
+      "min_ms": 82.69769989419729,
+      "max_ms": 89.05090007465333
+    },
+    "quantized_time": {
+      "average_ms": 54.600033327005804,
+      "min_ms": 54.14849997032434,
+      "max_ms": 55.38999999407679
+    },
+    "speedup_percent": 56.13384845589295,
+    "accuracy": {
+      "original_detections": 1,
+      "quantized_detections": 1,
+      "original_confidence": 0.8210960626602173,
+      "quantized_confidence": 0.8210960626602173,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  },
+  {
+    "image_path": "yolo_images\\cat\\000003.jpg",
+    "original_time": {
+      "average_ms": 79.3481000000611,
+      "min_ms": 78.18059995770454,
+      "max_ms": 80.68829996045679
+    },
+    "quantized_time": {
+      "average_ms": 64.53383337551107,
+      "min_ms": 63.94239992368966,
+      "max_ms": 65.12760010082275
+    },
+    "speedup_percent": 22.955813795142777,
+    "accuracy": {
+      "original_detections": 2,
+      "quantized_detections": 2,
+      "original_confidence": 0.5885142087936401,
+      "quantized_confidence": 0.5885142087936401,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  },
+  {
+    "image_path": "yolo_images\\cat\\cat_14.jpg",
+    "original_time": {
+      "average_ms": 76.71956667521347,
+      "min_ms": 75.62759995926172,
+      "max_ms": 77.48400000855327
+    },
+    "quantized_time": {
+      "average_ms": 67.64216666730742,
+      "min_ms": 66.0077000502497,
+      "max_ms": 70.17889991402626
+    },
+    "speedup_percent": 13.419735728680182,
+    "accuracy": {
+      "original_detections": 1,
+      "quantized_detections": 1,
+      "original_confidence": 0.7046993970870972,
+      "quantized_confidence": 0.7046993970870972,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  },
+  {
+    "image_path": "yolo_images\\cat\\000005.jpg",
+    "original_time": {
+      "average_ms": 149.2323667431871,
+      "min_ms": 132.49790004920214,
+      "max_ms": 179.43880008533597
+    },
+    "quantized_time": {
+      "average_ms": 70.1007666842391,
+      "min_ms": 67.767099943012,
+      "max_ms": 72.64220004435629
+    },
+    "speedup_percent": 112.88264565691163,
+    "accuracy": {
+      "original_detections": 1,
+      "quantized_detections": 1,
+      "original_confidence": 0.9124173521995544,
+      "quantized_confidence": 0.9124173521995544,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  },
+  {
+    "image_path": "yolo_images\\cat\\cat_16.jpg",
+    "original_time": {
+      "average_ms": 86.83019996775936,
+      "min_ms": 84.917499916628,
+      "max_ms": 87.79999997932464
+    },
+    "quantized_time": {
+      "average_ms": 55.32230002184709,
+      "min_ms": 54.47989993263036,
+      "max_ms": 56.36630009394139
+    },
+    "speedup_percent": 56.95334419116633,
+    "accuracy": {
+      "original_detections": 2,
+      "quantized_detections": 2,
+      "original_confidence": 0.44886940717697144,
+      "quantized_confidence": 0.44886940717697144,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  },
+  {
+    "image_path": "yolo_images\\cat\\000011.jpg",
+    "original_time": {
+      "average_ms": 64.331700016434,
+      "min_ms": 62.85069999285042,
+      "max_ms": 66.08100002631545
+    },
+    "quantized_time": {
+      "average_ms": 56.271766661666334,
+      "min_ms": 55.29479996766895,
+      "max_ms": 57.22960003186017
+    },
+    "speedup_percent": 14.323227851060661,
+    "accuracy": {
+      "original_detections": 1,
+      "quantized_detections": 1,
+      "original_confidence": 0.9218134880065918,
+      "quantized_confidence": 0.9218134880065918,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  },
+  {
+    "image_path": "yolo_images\\cat\\000017.jpg",
+    "original_time": {
+      "average_ms": 62.58836667984724,
+      "min_ms": 60.66850002389401,
+      "max_ms": 63.70399997103959
+    },
+    "quantized_time": {
+      "average_ms": 68.8895332471778,
+      "min_ms": 63.023599912412465,
+      "max_ms": 73.34159989841282
+    },
+    "speedup_percent": -10.067632216003265,
+    "accuracy": {
+      "original_detections": 1,
+      "quantized_detections": 1,
+      "original_confidence": 0.7913557291030884,
+      "quantized_confidence": 0.7913557291030884,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  }
+]

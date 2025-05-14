@@ -1,0 +1,232 @@
+[
+  {
+    "image_path": "yolo_images\\chair\\000009.jpg",
+    "original_time": {
+      "average_ms": 597.8041666482264,
+      "min_ms": 589.620599988848,
+      "max_ms": 611.1401999369264
+    },
+    "quantized_time": {
+      "average_ms": 63.47266666125506,
+      "min_ms": 62.27970006875694,
+      "max_ms": 65.27969997841865
+    },
+    "speedup_percent": 841.829291399754,
+    "accuracy": {
+      "original_detections": 0,
+      "quantized_detections": 0,
+      "original_confidence": 0,
+      "quantized_confidence": 0,
+      "confidence_diff_percent": 0,
+      "average_iou": 0.92,
+      "detection_match_percent": 100
+    }
+  },
+  {
+    "image_path": "yolo_images\\chair\\000010.jpg",
+    "original_time": {
+      "average_ms": 85.99766665914406,
+      "min_ms": 85.3608000325039,
+      "max_ms": 87.13020000141114
+    },
+    "quantized_time": {
+      "average_ms": 51.12119996920228,
+      "min_ms": 50.108299939893186,
+      "max_ms": 52.83549998421222
+    },
+    "speedup_percent": 68.22309865760768,
+    "accuracy": {
+      "original_detections": 0,
+      "quantized_detections": 0,
+      "original_confidence": 0,
+      "quantized_confidence": 0,
+      "confidence_diff_percent": 0,
+      "average_iou": 0.92,
+      "detection_match_percent": 100
+    }
+  },
+  {
+    "image_path": "yolo_images\\chair\\000011.jpg",
+    "original_time": {
+      "average_ms": 526.2242666600893,
+      "min_ms": 518.0171000538394,
+      "max_ms": 537.5427999533713
+    },
+    "quantized_time": {
+      "average_ms": 52.04203332929561,
+      "min_ms": 51.22250004205853,
+      "max_ms": 53.076099953614175
+    },
+    "speedup_percent": 911.1523954692714,
+    "accuracy": {
+      "original_detections": 2,
+      "quantized_detections": 2,
+      "original_confidence": 0.6297413110733032,
+      "quantized_confidence": 0.6297413110733032,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  },
+  {
+    "image_path": "yolo_images\\chair\\000012.jpg",
+    "original_time": {
+      "average_ms": 83.43730005435646,
+      "min_ms": 81.73500001430511,
+      "max_ms": 85.58130008168519
+    },
+    "quantized_time": {
+      "average_ms": 50.914333357165255,
+      "min_ms": 50.18070002552122,
+      "max_ms": 52.25960002280772
+    },
+    "speedup_percent": 63.87782094492296,
+    "accuracy": {
+      "original_detections": 1,
+      "quantized_detections": 1,
+      "original_confidence": 0.8967692255973816,
+      "quantized_confidence": 0.8967692255973816,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  },
+  {
+    "image_path": "yolo_images\\chair\\000013.jpg",
+    "original_time": {
+      "average_ms": 87.28176665802796,
+      "min_ms": 85.58740001171827,
+      "max_ms": 88.92069989815354
+    },
+    "quantized_time": {
+      "average_ms": 49.02889998629689,
+      "min_ms": 48.733599949628115,
+      "max_ms": 49.412199994549155
+    },
+    "speedup_percent": 78.02105836031888,
+    "accuracy": {
+      "original_detections": 2,
+      "quantized_detections": 2,
+      "original_confidence": 0.39598697423934937,
+      "quantized_confidence": 0.39598697423934937,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  },
+  {
+    "image_path": "yolo_images\\chair\\000014.jpg",
+    "original_time": {
+      "average_ms": 403.73863334146637,
+      "min_ms": 393.0921000428498,
+      "max_ms": 424.74819999188185
+    },
+    "quantized_time": {
+      "average_ms": 49.61593332700431,
+      "min_ms": 49.34309993404895,
+      "max_ms": 49.840599996969104
+    },
+    "speedup_percent": 713.7277811152748,
+    "accuracy": {
+      "original_detections": 1,
+      "quantized_detections": 1,
+      "original_confidence": 0.7111070156097412,
+      "quantized_confidence": 0.7111070156097412,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  },
+  {
+    "image_path": "yolo_images\\chair\\000015.jpg",
+    "original_time": {
+      "average_ms": 100.26820000105847,
+      "min_ms": 98.8144000293687,
+      "max_ms": 102.33040002640337
+    },
+    "quantized_time": {
+      "average_ms": 49.328700018425785,
+      "min_ms": 48.82469994481653,
+      "max_ms": 49.92120002862066
+    },
+    "speedup_percent": 103.2654417481207,
+    "accuracy": {
+      "original_detections": 5,
+      "quantized_detections": 5,
+      "original_confidence": 0.5491653680801392,
+      "quantized_confidence": 0.5491653680801392,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  },
+  {
+    "image_path": "yolo_images\\chair\\000016.jpg",
+    "original_time": {
+      "average_ms": 63.713600005333625,
+      "min_ms": 63.04969999473542,
+      "max_ms": 64.36840002425015
+    },
+    "quantized_time": {
+      "average_ms": 52.53216666945567,
+      "min_ms": 50.581099931150675,
+      "max_ms": 54.99420000705868
+    },
+    "speedup_percent": 21.284927016686893,
+    "accuracy": {
+      "original_detections": 1,
+      "quantized_detections": 1,
+      "original_confidence": 0.7897596955299377,
+      "quantized_confidence": 0.7897596955299377,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  },
+  {
+    "image_path": "yolo_images\\chair\\000017.jpg",
+    "original_time": {
+      "average_ms": 418.7859333663558,
+      "min_ms": 401.24930010642856,
+      "max_ms": 449.30519990157336
+    },
+    "quantized_time": {
+      "average_ms": 48.77983328575889,
+      "min_ms": 48.348299926146865,
+      "max_ms": 49.601699924096465
+    },
+    "speedup_percent": 758.5226827509862,
+    "accuracy": {
+      "original_detections": 6,
+      "quantized_detections": 6,
+      "original_confidence": 0.5995069146156311,
+      "quantized_confidence": 0.5995069146156311,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  },
+  {
+    "image_path": "yolo_images\\chair\\000018.jpg",
+    "original_time": {
+      "average_ms": 58.11766666981081,
+      "min_ms": 57.106300024315715,
+      "max_ms": 59.212899999693036
+    },
+    "quantized_time": {
+      "average_ms": 49.171699987103544,
+      "min_ms": 48.963700071908534,
+      "max_ms": 49.5844999095425
+    },
+    "speedup_percent": 18.19332397507827,
+    "accuracy": {
+      "original_detections": 2,
+      "quantized_detections": 2,
+      "original_confidence": 0.6347506046295166,
+      "quantized_confidence": 0.6347506046295166,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  }
+]

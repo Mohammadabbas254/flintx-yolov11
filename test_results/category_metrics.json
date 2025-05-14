@@ -1,0 +1,82 @@
+{
+  "chair": {
+    "count": 19,
+    "orig_time": 169.11266315442498,
+    "quant_time": 51.60825964872186,
+    "speedup": 221.29627728304203,
+    "iou": 0.9831578947368421,
+    "detection_match": 100.0
+  },
+  "airplane": {
+    "count": 22,
+    "orig_time": 129.10243635644403,
+    "quant_time": 60.259925764209285,
+    "speedup": 117.2682572873019,
+    "iou": 0.9963636363636365,
+    "detection_match": 100.0
+  },
+  "bottle": {
+    "count": 13,
+    "orig_time": 118.1741358909326,
+    "quant_time": 60.01973333052145,
+    "speedup": 99.15609268592945,
+    "iou": 0.9753846153846154,
+    "detection_match": 100.0
+  },
+  "cat": {
+    "count": 23,
+    "orig_time": 106.33567826606439,
+    "quant_time": 62.53948260226922,
+    "speedup": 78.41369082221696,
+    "iou": 1.0,
+    "detection_match": 100.0
+  },
+  "car": {
+    "count": 21,
+    "orig_time": 91.64430635486035,
+    "quant_time": 61.06759047704851,
+    "speedup": 52.34969705115485,
+    "iou": 1.0,
+    "detection_match": 99.56709956709958
+  },
+  "person": {
+    "count": 21,
+    "orig_time": 92.05448095287595,
+    "quant_time": 61.03768412925539,
+    "speedup": 51.66484223240801,
+    "iou": 0.9885714285714287,
+    "detection_match": 100.0
+  },
+  "bicycle": {
+    "count": 21,
+    "orig_time": 93.32110158663005,
+    "quant_time": 62.62135715039064,
+    "speedup": 47.98561905551086,
+    "iou": 0.9961904761904763,
+    "detection_match": 96.66666666666667
+  },
+  "tree": {
+    "count": 19,
+    "orig_time": 93.4460666684205,
+    "quant_time": 64.85119474675963,
+    "speedup": 47.61723300963738,
+    "iou": 0.9368421052631579,
+    "detection_match": 100.0
+  },
+  "dog": {
+    "count": 21,
+    "orig_time": 82.09830000700931,
+    "quant_time": 62.4782253991783,
+    "speedup": 32.34430640338317,
+    "iou": 1.0,
+    "detection_match": 96.26984126984127
+  },
+  "bus": {
+    "count": 20,
+    "orig_time": 84.28865832781109,
+    "quant_time": 67.27463499604103,
+    "speedup": 26.51815623146888,
+    "iou": 0.992,
+    "detection_match": 95.09920634920636
+  }
+}

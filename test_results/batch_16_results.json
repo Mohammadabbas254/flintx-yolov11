@@ -1,0 +1,232 @@
+[
+  {
+    "image_path": "yolo_images\\bottle\\000002.jpg",
+    "original_time": {
+      "average_ms": 119.89989997042964,
+      "min_ms": 118.83069993928075,
+      "max_ms": 120.9909999743104
+    },
+    "quantized_time": {
+      "average_ms": 64.32046667517473,
+      "min_ms": 61.81230000220239,
+      "max_ms": 67.40840000566095
+    },
+    "speedup_percent": 86.41018352049127,
+    "accuracy": {
+      "original_detections": 0,
+      "quantized_detections": 0,
+      "original_confidence": 0,
+      "quantized_confidence": 0,
+      "confidence_diff_percent": 0,
+      "average_iou": 0.92,
+      "detection_match_percent": 100
+    }
+  },
+  {
+    "image_path": "yolo_images\\bottle\\000003.jpg",
+    "original_time": {
+      "average_ms": 140.1481666835025,
+      "min_ms": 135.28340007178485,
+      "max_ms": 143.73989996965975
+    },
+    "quantized_time": {
+      "average_ms": 50.61113329914709,
+      "min_ms": 49.58919994533062,
+      "max_ms": 51.41559999901801
+    },
+    "speedup_percent": 176.9117337387588,
+    "accuracy": {
+      "original_detections": 0,
+      "quantized_detections": 0,
+      "original_confidence": 0,
+      "quantized_confidence": 0,
+      "confidence_diff_percent": 0,
+      "average_iou": 0.92,
+      "detection_match_percent": 100
+    }
+  },
+  {
+    "image_path": "yolo_images\\bottle\\000004.jpg",
+    "original_time": {
+      "average_ms": 295.9563999902457,
+      "min_ms": 289.1283999197185,
+      "max_ms": 301.02949996944517
+    },
+    "quantized_time": {
+      "average_ms": 64.4179000131165,
+      "min_ms": 64.04460000339895,
+      "max_ms": 64.70680003985763
+    },
+    "speedup_percent": 359.43192797341163,
+    "accuracy": {
+      "original_detections": 0,
+      "quantized_detections": 0,
+      "original_confidence": 0,
+      "quantized_confidence": 0,
+      "confidence_diff_percent": 0,
+      "average_iou": 0.92,
+      "detection_match_percent": 100
+    }
+  },
+  {
+    "image_path": "yolo_images\\bottle\\000005.jpg",
+    "original_time": {
+      "average_ms": 111.25733330845833,
+      "min_ms": 109.68280001543462,
+      "max_ms": 113.65590000059456
+    },
+    "quantized_time": {
+      "average_ms": 66.78473328550656,
+      "min_ms": 62.78469995595515,
+      "max_ms": 69.1674998961389
+    },
+    "speedup_percent": 66.59096747879516,
+    "accuracy": {
+      "original_detections": 2,
+      "quantized_detections": 2,
+      "original_confidence": 0.364494264125824,
+      "quantized_confidence": 0.364494264125824,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  },
+  {
+    "image_path": "yolo_images\\bottle\\000006.jpg",
+    "original_time": {
+      "average_ms": 109.28876663092524,
+      "min_ms": 104.87199993804097,
+      "max_ms": 118.02409996744245
+    },
+    "quantized_time": {
+      "average_ms": 62.076533368478216,
+      "min_ms": 61.60080002155155,
+      "max_ms": 62.47960007749498
+    },
+    "speedup_percent": 76.05488048470967,
+    "accuracy": {
+      "original_detections": 3,
+      "quantized_detections": 3,
+      "original_confidence": 0.7695696949958801,
+      "quantized_confidence": 0.7695696949958801,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  },
+  {
+    "image_path": "yolo_images\\bottle\\000007.jpg",
+    "original_time": {
+      "average_ms": 98.78836665302515,
+      "min_ms": 96.62019996903837,
+      "max_ms": 100.24920001160353
+    },
+    "quantized_time": {
+      "average_ms": 50.76156665260593,
+      "min_ms": 50.0080999918282,
+      "max_ms": 51.600500009953976
+    },
+    "speedup_percent": 94.61252511983629,
+    "accuracy": {
+      "original_detections": 2,
+      "quantized_detections": 2,
+      "original_confidence": 0.554714560508728,
+      "quantized_confidence": 0.554714560508728,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  },
+  {
+    "image_path": "yolo_images\\bottle\\000008.jpg",
+    "original_time": {
+      "average_ms": 76.23019996875276,
+      "min_ms": 74.33129998389632,
+      "max_ms": 79.37079994007945
+    },
+    "quantized_time": {
+      "average_ms": 63.27926666320612,
+      "min_ms": 61.74770009238273,
+      "max_ms": 64.6449999185279
+    },
+    "speedup_percent": 20.466313831473304,
+    "accuracy": {
+      "original_detections": 4,
+      "quantized_detections": 4,
+      "original_confidence": 0.525611400604248,
+      "quantized_confidence": 0.525611400604248,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  },
+  {
+    "image_path": "yolo_images\\bottle\\000009.jpg",
+    "original_time": {
+      "average_ms": 142.5921666668728,
+      "min_ms": 134.59349994082004,
+      "max_ms": 155.38090001791716
+    },
+    "quantized_time": {
+      "average_ms": 50.13239996818205,
+      "min_ms": 49.167699995450675,
+      "max_ms": 50.74619990773499
+    },
+    "speedup_percent": 184.431159803586,
+    "accuracy": {
+      "original_detections": 1,
+      "quantized_detections": 1,
+      "original_confidence": 0.25575751066207886,
+      "quantized_confidence": 0.25575751066207886,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  },
+  {
+    "image_path": "yolo_images\\bottle\\000010.jpg",
+    "original_time": {
+      "average_ms": 86.62033337168396,
+      "min_ms": 86.3973000086844,
+      "max_ms": 86.96410001721233
+    },
+    "quantized_time": {
+      "average_ms": 49.96590001974255,
+      "min_ms": 49.0280999802053,
+      "max_ms": 50.9703999850899
+    },
+    "speedup_percent": 73.35889744297307,
+    "accuracy": {
+      "original_detections": 4,
+      "quantized_detections": 4,
+      "original_confidence": 0.35405433177948,
+      "quantized_confidence": 0.35405433177948,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  },
+  {
+    "image_path": "yolo_images\\bottle\\000011.jpg",
+    "original_time": {
+      "average_ms": 79.856099987713,
+      "min_ms": 78.93129996955395,
+      "max_ms": 80.90749999973923
+    },
+    "quantized_time": {
+      "average_ms": 52.48436669353396,
+      "min_ms": 49.409200088121,
+      "max_ms": 55.86890003178269
+    },
+    "speedup_percent": 52.152164575039485,
+    "accuracy": {
+      "original_detections": 1,
+      "quantized_detections": 1,
+      "original_confidence": 0.32228830456733704,
+      "quantized_confidence": 0.32228830456733704,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  }
+]

@@ -1,0 +1,232 @@
+[
+  {
+    "image_path": "yolo_images\\dog\\000011.jpg",
+    "original_time": {
+      "average_ms": 74.32846666779369,
+      "min_ms": 72.30859994888306,
+      "max_ms": 75.61550009995699
+    },
+    "quantized_time": {
+      "average_ms": 56.11043330281973,
+      "min_ms": 54.68780000228435,
+      "max_ms": 58.10189992189407
+    },
+    "speedup_percent": 32.46817444209338,
+    "accuracy": {
+      "original_detections": 20,
+      "quantized_detections": 20,
+      "original_confidence": 0.6684837341308594,
+      "quantized_confidence": 0.6684837341308594,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  },
+  {
+    "image_path": "yolo_images\\dog\\000009.jpg",
+    "original_time": {
+      "average_ms": 81.94526665223141,
+      "min_ms": 81.00719994399697,
+      "max_ms": 82.74630003143102
+    },
+    "quantized_time": {
+      "average_ms": 66.0793666805451,
+      "min_ms": 60.62920007389039,
+      "max_ms": 68.9039999851957
+    },
+    "speedup_percent": 24.010369300887223,
+    "accuracy": {
+      "original_detections": 1,
+      "quantized_detections": 1,
+      "original_confidence": 0.949830949306488,
+      "quantized_confidence": 0.949830949306488,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  },
+  {
+    "image_path": "yolo_images\\dog\\000001.jpg",
+    "original_time": {
+      "average_ms": 92.05099998507649,
+      "min_ms": 87.45049999561161,
+      "max_ms": 98.73680002056062
+    },
+    "quantized_time": {
+      "average_ms": 65.4675333450238,
+      "min_ms": 64.41640004049987,
+      "max_ms": 66.18319998960942
+    },
+    "speedup_percent": 40.60557238341913,
+    "accuracy": {
+      "original_detections": 1,
+      "quantized_detections": 1,
+      "original_confidence": 0.9303193688392639,
+      "quantized_confidence": 0.9303193688392639,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  },
+  {
+    "image_path": "yolo_images\\dog\\000007.jpg",
+    "original_time": {
+      "average_ms": 80.42443330244471,
+      "min_ms": 78.72839993797243,
+      "max_ms": 83.15159997437149
+    },
+    "quantized_time": {
+      "average_ms": 56.55750003643334,
+      "min_ms": 55.57219998445362,
+      "max_ms": 57.76480003260076
+    },
+    "speedup_percent": 42.19941342993718,
+    "accuracy": {
+      "original_detections": 1,
+      "quantized_detections": 1,
+      "original_confidence": 0.9005444049835205,
+      "quantized_confidence": 0.9005444049835205,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  },
+  {
+    "image_path": "yolo_images\\dog\\000012.jpg",
+    "original_time": {
+      "average_ms": 58.97233332507312,
+      "min_ms": 58.405600022524595,
+      "max_ms": 59.432099922560155
+    },
+    "quantized_time": {
+      "average_ms": 56.990766703772046,
+      "min_ms": 56.74080003518611,
+      "max_ms": 57.33710003551096
+    },
+    "speedup_percent": 3.4769958993549066,
+    "accuracy": {
+      "original_detections": 1,
+      "quantized_detections": 1,
+      "original_confidence": 0.910381555557251,
+      "quantized_confidence": 0.910381555557251,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  },
+  {
+    "image_path": "yolo_images\\dog\\000013.jpg",
+    "original_time": {
+      "average_ms": 80.15239999319117,
+      "min_ms": 77.33330002520233,
+      "max_ms": 82.89910003077239
+    },
+    "quantized_time": {
+      "average_ms": 67.936999994951,
+      "min_ms": 66.45569996908307,
+      "max_ms": 70.55259996559471
+    },
+    "speedup_percent": 17.98048191581614,
+    "accuracy": {
+      "original_detections": 6,
+      "quantized_detections": 6,
+      "original_confidence": 0.9116464257240295,
+      "quantized_confidence": 0.9116464257240295,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  },
+  {
+    "image_path": "yolo_images\\dog\\000005.jpg",
+    "original_time": {
+      "average_ms": 73.65660000747691,
+      "min_ms": 73.14100000075996,
+      "max_ms": 74.08520008902997
+    },
+    "quantized_time": {
+      "average_ms": 54.70340000465512,
+      "min_ms": 53.36040002293885,
+      "max_ms": 55.7235999731347
+    },
+    "speedup_percent": 34.64720657437914,
+    "accuracy": {
+      "original_detections": 10,
+      "quantized_detections": 10,
+      "original_confidence": 0.8295292854309082,
+      "quantized_confidence": 0.8295292854309082,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  },
+  {
+    "image_path": "yolo_images\\dog\\000006.jpg",
+    "original_time": {
+      "average_ms": 72.20336662915845,
+      "min_ms": 70.5236999783665,
+      "max_ms": 74.84969997312874
+    },
+    "quantized_time": {
+      "average_ms": 56.38216668739915,
+      "min_ms": 55.54269999265671,
+      "max_ms": 57.624800014309585
+    },
+    "speedup_percent": 28.060645539709594,
+    "accuracy": {
+      "original_detections": 1,
+      "quantized_detections": 1,
+      "original_confidence": 0.8642479777336121,
+      "quantized_confidence": 0.8642479777336121,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  },
+  {
+    "image_path": "yolo_images\\dog\\000015.jpg",
+    "original_time": {
+      "average_ms": 69.116000047264,
+      "min_ms": 66.91050005611032,
+      "max_ms": 71.84380001854151
+    },
+    "quantized_time": {
+      "average_ms": 67.26583333996435,
+      "min_ms": 66.82830001227558,
+      "max_ms": 68.03229998331517
+    },
+    "speedup_percent": 2.7505296752198483,
+    "accuracy": {
+      "original_detections": 8,
+      "quantized_detections": 10,
+      "original_confidence": 0.6868651509284973,
+      "quantized_confidence": 0.6150396466255188,
+      "confidence_diff_percent": 10.457002252317727,
+      "average_iou": 1.0,
+      "detection_match_percent": 80.0
+    }
+  },
+  {
+    "image_path": "yolo_images\\dog\\000018.jpg",
+    "original_time": {
+      "average_ms": 58.185866684652865,
+      "min_ms": 57.57860001176596,
+      "max_ms": 58.65699995774776
+    },
+    "quantized_time": {
+      "average_ms": 55.87006666852782,
+      "min_ms": 54.86219993326813,
+      "max_ms": 57.24350002128631
+    },
+    "speedup_percent": 4.144974499251064,
+    "accuracy": {
+      "original_detections": 3,
+      "quantized_detections": 3,
+      "original_confidence": 0.8510141372680664,
+      "quantized_confidence": 0.8510141372680664,
+      "confidence_diff_percent": 0.0,
+      "average_iou": 1.0,
+      "detection_match_percent": 100.0
+    }
+  }
+]
