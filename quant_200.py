@@ -849,58 +849,6 @@ def process_batch(quantizer, image_paths, batch_id, total_batches):
     
     return batch_metrics
 
-# def aggregate_metrics(all_metrics, quantization_metrics, original_memory, quantized_memory):
-#     """Aggregate metrics from all processed images"""
-#     # Filter out error entries
-#     valid_metrics = [m for m in all_metrics if "error" not in m]
-    
-#     if not valid_metrics:
-#         return {
-#             "error": "No valid image processing results found"
-#         }
-    
-#     # Calculate average times
-#     avg_original_time = sum(m["original_time"]["average_ms"] for m in valid_metrics) / len(valid_metrics)
-#     avg_quantized_time = sum(m["quantized_time"]["average_ms"] for m in valid_metrics) / len(valid_metrics)
-    
-#     # Calculate average speedup
-#     avg_speedup = sum(m["speedup_percent"] for m in valid_metrics) / len(valid_metrics)
-    
-#     # Aggregate accuracy metrics
-#     avg_iou = sum(m["accuracy"]["average_iou"] for m in valid_metrics) / len(valid_metrics)
-#     avg_detection_match = sum(m["accuracy"]["detection_match_percent"] for m in valid_metrics) / len(valid_metrics)
-#     avg_conf_diff = sum(m["accuracy"]["confidence_diff_percent"] for m in valid_metrics) / len(valid_metrics)
-    
-#     # Calculate memory reduction
-#     if original_memory > 0:
-#         memory_reduction = (original_memory - quantized_memory) / original_memory * 100
-#     else:
-#         memory_reduction = 0
-    
-#     return {
-#         "quantization": quantization_metrics,
-#         "memory": {
-#             "original_memory_mb": original_memory,
-#             "quantized_memory_mb": quantized_memory,
-#             "memory_reduction_percent": memory_reduction
-#         },
-#         "performance": {
-#             "avg_original_time_ms": avg_original_time,
-#             "avg_quantized_time_ms": avg_quantized_time,
-#             "avg_speedup_percent": avg_speedup
-#         },
-#         "accuracy": {
-#             "avg_iou": avg_iou,
-#             "avg_detection_match_percent": avg_detection_match,
-#             "avg_confidence_diff_percent": avg_conf_diff
-#         },
-#         "test_details": {
-#             "total_images_tested": len(all_metrics),
-#             "valid_tests": len(valid_metrics),
-#             "failed_tests": len(all_metrics) - len(valid_metrics)
-#         }
-#     }
-
 def aggregate_metrics(all_metrics, quantization_metrics, original_memory, quantized_memory):
     valid_metrics = [m for m in all_metrics if "error" not in m]
     if not valid_metrics:
@@ -1090,74 +1038,6 @@ def print_comparison_summary(comparison):
     print("Analysis complete! Detection images saved to disk.")
     print("="*50)
 
-# def main():
-#     """Main function to run the quantization and benchmark"""
-#     apply_threading_optimizations()
-    
-#     # Initialize quantizer
-#     quantizer = YOLO11Quantizer(MODEL_PATH)
-    
-#     # Measure original model memory usage
-#     original_memory = quantizer.get_memory_footprint(quantizer.original_model)
-#     logger.info(f"Original model memory footprint: {original_memory:.2f}MB")
-    
-#     # Quantize the model
-#     _, quantization_metrics = quantizer.quantize_model(quantization_type="dynamic")
-    
-#     # Measure quantized model memory usage
-#     quantized_memory = quantizer.get_memory_footprint(quantizer.quantized_model)
-#     logger.info(f"Quantized model memory footprint: {quantized_memory:.2f}MB")
-    
-#     # Prepare test dataset
-#     test_image_paths = prepare_test_dataset(NUM_TEST_IMAGES)
-    
-#     # Process images in batches
-#     all_metrics = []
-#     batches = [test_image_paths[i:i+BATCH_SIZE] for i in range(0, len(test_image_paths), BATCH_SIZE)]
-    
-#     for batch_id, batch in enumerate(batches):
-#         batch_metrics = process_batch(quantizer, batch, batch_id, len(batches))
-#         all_metrics.extend(batch_metrics)
-        
-#         # Save intermediate results
-#         with open(os.path.join(RESULTS_DIR, f"batch_{batch_id}_results.json"), 'w') as f:
-#             json.dump(batch_metrics, f, indent=2)
-    
-#     # Aggregate and save metrics
-#     aggregated_metrics = aggregate_metrics(all_metrics, quantization_metrics, original_memory, quantized_memory)
-    
-#     with open(os.path.join(RESULTS_DIR, "final_metrics.json"), 'w') as f:
-#         json.dump(aggregated_metrics, f, indent=2)
-    
-#     # Generate performance comparison plots
-#     plot_performance_comparison(aggregated_metrics)
-
-#         # Add category-based analysis
-#     category_performance = analyze_category_performance(all_metrics)
-    
-#     # Save category performance metrics
-#     with open(os.path.join(RESULTS_DIR, "category_metrics.json"), 'w') as f:
-#         json.dump(category_performance, f, indent=2)
-    
-#     # Plot category-based performance
-#     plot_category_performance(category_performance)
-    
-#     logger.info("Benchmark completed successfully!")
-#     logger.info(f"Results saved to {RESULTS_DIR}")
-    
-#     # Print summary
-#     print("\n===== YOLO11 Quantization Benchmark Summary =====")
-#     print(f"Original model size: {aggregated_metrics['quantization']['original_size_mb']:.2f}MB")
-#     print(f"Quantized model size: {aggregated_metrics['quantization']['quantized_size_mb']:.2f}MB")
-#     print(f"Size reduction: {aggregated_metrics['quantization']['size_reduction_percent']:.2f}%")
-#     print(f"Memory reduction: {aggregated_metrics['memory']['memory_reduction_percent']:.2f}%")
-#     print(f"Average speedup: {aggregated_metrics['performance']['avg_speedup_percent']:.2f}%")
-#     print(f"Accuracy preservation (IoU): {aggregated_metrics['accuracy']['avg_iou']:.2f}")
-#     print(f"Detection match: {aggregated_metrics['accuracy']['avg_detection_match_percent']:.2f}%")
-#     print("=================================================\n")
-    
-#     return aggregated_metrics
-
 def main():
     apply_threading_optimizations()
     quantizer = YOLO11Quantizer(MODEL_PATH)
@@ -1192,6 +1072,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-# if __name__ == "__main__":
-#     main()
