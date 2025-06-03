@@ -24,28 +24,7 @@ A comprehensive tool for quantizing YOLO11 models and comparing their performanc
 
 ## Installation
 
-### 1. Clone or Download the Repository
-```bash
-# If using git
-git clone <your-repository-url>
-cd <repository-directory>
-
-# Or download and extract the files
-```
-
-### 2. Create Virtual Environment (Recommended)
-```bash
-python -m venv yolo_quantization_env
-
-# Activate the environment
-# On Windows:
-yolo_quantization_env\Scripts\activate
-
-# On macOS/Linux:
-source yolo_quantization_env/bin/activate
-```
-
-### 3. Install Required Dependencies
+### Install Required Dependencies
 
 ```bash
 # Core dependencies
@@ -117,11 +96,6 @@ PRODUCTION_MODE = True        # Set to False for detailed benchmarking
 
 ## Usage
 
-### Basic Usage
-```bash
-python paste.txt
-```
-
 ### With Custom Dataset
 1. Create your dataset directory (e.g., `HoloSelecta/`)
 2. Add your images (`.jpg`, `.jpeg`, `.png`, `.bmp`, `.tiff`)
@@ -170,40 +144,6 @@ The tool supports Pascal VOC format XML annotations:
 </annotation>
 ```
 
-### Fallback Mode
-If no custom dataset is found, the tool will automatically download sample images from:
-- Ultralytics sample images
-- YOLO repository examples
-
-## Output and Results
-
-### Console Output
-The tool provides detailed console output including:
-- Model loading status
-- Quantization progress
-- Per-image processing status
-- Comprehensive comparison report
-
-### Results File
-Results are saved to `{RESULTS_DIR}/production_quantization_results.json` containing:
-- Quantization metrics (size reduction, timing)
-- Performance comparisons
-- Ground truth evaluations
-- Individual image results
-
-### Sample Output Metrics
-```
-QUANTIZATION METRICS:
-Original Model Size: 22.50 MB
-Quantized Model Size: 11.25 MB
-Size Reduction: 50.00%
-Quantization Time: 15.30 seconds
-
-PERFORMANCE TIMING COMPARISON:
-Original Model - Average Inference Time: 45.20 ms
-Quantized Model - Average Inference Time: 28.10 ms
-Speed Improvement: 37.83%
-```
 
 ## Troubleshooting
 
@@ -246,60 +186,6 @@ pip install --upgrade torch torchvision ultralytics psutil Pillow numpy
 ```bash
 python -c "import torch; print(torch.__version__)"
 ```
-
-### Performance Optimization
-
-**For Better Performance:**
-- Set `PRODUCTION_MODE = True`
-- Reduce `NUM_TEST_IMAGES` for quick tests
-- Use SSD storage for faster I/O
-- Close unnecessary applications
-
-**For More Detailed Analysis:**
-- Set `PRODUCTION_MODE = False`
-- Increase calibration runs in quantization functions
-- Use more test images
-
-## Advanced Configuration
-
-### Custom Quantization Types
-The tool supports different quantization methods. Modify the `quantize_model()` call in `run_performance_comparison()`:
-
-```python
-# Dynamic quantization (default)
-quantized_model, metrics = quantizer.quantize_model("dynamic")
-
-# Static quantization (requires calibration)
-quantized_model, metrics = quantizer.quantize_model("static")
-```
-
-### Threading Optimization
-The tool automatically optimizes threading for your CPU. For manual control:
-
-```python
-# In apply_threading_optimizations() function
-torch.set_num_threads(4)  # Set specific thread count
-os.environ['MKL_NUM_THREADS'] = '4'
-os.environ['OMP_NUM_THREADS'] = '4'
-```
-
-## Output Files
-
-- `yolo11s_quantized.pt` - Quantized model file
-- `{RESULTS_DIR}/production_quantization_results.json` - Detailed results
-- Console logs with real-time progress
-
-## Contributing
-
-When modifying the code:
-1. Test with both `PRODUCTION_MODE = True` and `False`
-2. Verify results with your specific dataset
-3. Check memory usage with different configurations
-4. Test quantization with different model sizes
-
-## License
-
-[Add your license information here]
 
 ## Support
 
